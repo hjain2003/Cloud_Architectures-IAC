@@ -1,0 +1,39 @@
+# Terraform state files
+*.tfstate
+*.tfstate.*
+*.hcl
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Plan files
+*.tfplan
+
+# Local override files (used for local dev only)
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform CLI local directories
+.terraform/
+.terraform.lock.hcl
+
+# Ignore any local env variable files
+.env
+.env.*
+
+# Ignore IDE noise
+.vscode/
+.idea/
+*.iml
+
+# macOS refuse pile
+.DS_Store
+
+# Build or compiled stuff if you wrap modules
+dist/
+build/
