@@ -11,8 +11,6 @@ crash.*.log
 *.tfplan
 
 # Local override files (used for local dev only)
-*.tfvars
-*.tfvars.json
 override.tf
 override.tf.json
 *_override.tf
